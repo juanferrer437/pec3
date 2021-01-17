@@ -236,7 +236,7 @@ article {
 .hilo-ariadna li a:hover {
     color:rgb(28, 28, 28,0.5);
 }
-.hilo-ariadna li a.actual {
+.hilo-ariadna li.actual {
     color:rgb(28, 28, 28,0.5);
 }
 
@@ -284,12 +284,12 @@ margin-left: 0.5em;
 header {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(232, 232, 232);
-    border: 1px solid rgb(232, 232, 232);
-    padding: 0.5em;
+     padding: 0.5em;
 }
 
 body {
     margin: 0 0;
+    background-color: rgb(232, 232, 232);
 }
 
 iframe {
@@ -301,15 +301,15 @@ iframe {
 main {
     border: 1px solid rgb(232, 232, 232);
     font-family: 'Noto Serif', serif;
-    background-color: rgb(232, 232, 232);
+    
     color:#1c1c1c;
     padding-bottom: 6em;
-}
-
-section {
     margin: auto;
     width: 70%;
 }
+}
+
+ 
 
 .oscars {
     color: black;
@@ -529,7 +529,7 @@ input {
 
 
 @media all and (max-width: 800px) {
-    section {
+    main {
         width: 95%;
     }
 
