@@ -116,7 +116,9 @@ nav ul a:hover {
  } 
 
 
-
+.negrita {
+    font-weight: bold;
+}
 
 /* ========================================================================= */
 /* ========================================================================= */
@@ -301,13 +303,12 @@ iframe {
 main {
     border: 1px solid rgb(232, 232, 232);
     font-family: 'Noto Serif', serif;
-    
     color:#1c1c1c;
     padding-bottom: 6em;
     margin: auto;
     width: 70%;
 }
-}
+
 
  
 
@@ -444,7 +445,9 @@ width: 100%;
     width: 8em;
 }
 
-
+.enlace-privacidad {
+    color: rgb(155, 23, 0);
+}
 
 .veremosMas {
     color:#9b1700;
