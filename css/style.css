@@ -209,8 +209,8 @@ nav ul a:hover {
 /* ================================================================= */
 
 
-article {
-
+.nombre-propio{
+    font-style: italic;
 }
 
 
