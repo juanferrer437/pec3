@@ -207,7 +207,9 @@ nav ul a:hover {
 /* ================================================================= */
 
 
+article {
 
+}
 
 
 
@@ -527,7 +529,7 @@ input {
 
 
 @media all and (max-width: 800px) {
-    article {
+    section {
         width: 95%;
     }
 
